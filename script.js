@@ -8,7 +8,6 @@ console.log('ciao');
 //Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-for(let i = 0; i < 1; i++) {
     let totalePlayer = Math.floor(Math.random()*6 + 1)
     alert('lancio player:' + totalePlayer)
     let totaleComputer = Math.floor(Math.random()*6 + 1)
@@ -21,7 +20,7 @@ for(let i = 0; i < 1; i++) {
     } else if (totalePlayer = totaleComputer) {
         alert('pareggio')
     } 
-}
+
     
       
 
